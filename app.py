@@ -3,7 +3,7 @@ import joblib
 import re
 
 # Load model
-model = joblib.load("phishing_model.pkl")
+model = joblib.load("phishing_model .pkl")
 
 # URL feature extractor (simple example)
 def extract_features(url):
